@@ -102,7 +102,7 @@ let appData = {
               appData.income.push(prompt('Может еще что-то ?'));
               appData.income.sort();
               delete appData.income[0];
-              appData.income.forEach( function(item , i , mass) {
+              appData.income.forEach( function(item , i ) {
                      alert( i + ' Способы доп. заработка: ' + item);
               });
        }
